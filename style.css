@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+body{
+  background-image: linear-gradient(to top right, #041721 , #1B4645 );
+  background-repeat: no-repeat;
+  height: 100%;
+}
+.nav{
+  background: linear-gradient(#2769677e,#2769677e);
+}
+.hero{
+  background-image: url('Background.svg');
+  background-repeat: no-repeat;
+  height: 80vh;
+   max-height: fit-content;  
+}
+.head{
+  font-size: 15vh;
+  color: #F68800;
+  text-shadow: 5px 5px 18px #041721;
+}
+.head_up{
+  font-size: 10vh;
+}
+.img, .card{
+  width: 100%;
+  height: 80vh;
+  transform: translateY(-3%);
+  animation: floater 2.5s infinite;
+  transition: ease 0.5s;
+}
+/* About Section*/
+.about_sec {
+  background-image: linear-gradient(to top right, #1B4645 , #1B4645 );
+  background-repeat: no-repeat;
+  box-shadow: #041721 0px 20px 30px -10px; 
+
+}
+.about_sec3{
+  background-image: linear-gradient(to top right, #1B4645 , #041721 );
+    background-repeat: no-repeat;
+    box-shadow: #041721 0px 20px 30px -10px; 
+}
+.about_head, .contact_head{
+  font-size: 8vh;
+}
+.img1{
+  width: 100%;
+  height: 80vh;
+  float: right;
+  transform: translateY(-3%);
+  animation: floater 2.5s infinite;
+  transition: ease 0.5s;
+}
+ul{
+  list-style: none;
+}
+/* Service Part */
+.card, .contact{
+  background-image: linear-gradient(to top right, #1B4645 , #041721 );
+    background-repeat: no-repeat;
+    box-shadow: #041721 0px 20px 30px -10px; 
+    border-style: none !important;
+}
+.card_img{
+  height: 70%;
+}
+/* Contact Section */
+.contact_sec{
+  background-image: linear-gradient(to top right, #1B4645 , #1B4645 );
+  background-repeat: no-repeat;
+  box-shadow: #041721 0px 20px 30px -10px; 
+
+}
+.contact_sec2{
+  background-image: url('AnimatedShape.svg');
+  background-repeat: no-repeat;
+  box-shadow: #041721 0px 20px 30px -10px; 
+
+}
+.b_img{
+  width: 70%;
+  height: 60%;
+}
+/* .carousel-inner{
+  width: 100%;
+  height: 90vh;
+}  */
+  @keyframes floater {
+    0% {
+      transform: translateY(-3%);
+      transition: ease 0.5s;
+    }
+    50% {
+      transform: translateY(3%);
+      transition: ease 0.5s;
+    }
+  }
+
+
+
+
+
+
