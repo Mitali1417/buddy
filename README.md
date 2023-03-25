@@ -3,7 +3,7 @@ A Platform To Connect With Fellow Hostel Students And Professionals
 
 
 Project Description & Demo 
-.buddy is a platform designed to facilitate communication and interaction between students living in hostels. The website will allow students to create accounts, join hostel-specific groups, chat with fellow hostel mates, share updates and information, and participate in group activities.
+.buddy is a UI platform designed to facilitate communication and interaction between students living in hostels. The website will allow students to create accounts, join hostel-specific groups, chat with fellow hostel mates, share updates and information, and participate in group activities.
 
 
 Project Features
